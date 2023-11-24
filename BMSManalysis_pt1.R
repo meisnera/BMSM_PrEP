@@ -20,7 +20,7 @@ library(nnet)
 library(CBPS)
 library(cobalt)
 
-load("/home/ameisner/BMSM/BMSManalysis/alldata_wide20230413.Rda")
+load(".../alldata_wide20230413.Rda")
 
 `%!in%` = Negate(`%in%`)
 
@@ -554,4 +554,4 @@ for(i in 1:100){
   effect_bootresult1[i,] <- effect_imp(dataset=bootdata,setseed1=allseeds[i,2])
 }
 
-write.csv(effect_bootresult1,"/home/ameisner/BMSM/BMSManalysis/BMSManalysis_pt1.csv")
+write.csv(effect_bootresult1,".../BMSManalysis_pt1.csv")
