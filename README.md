@@ -1,5 +1,4 @@
 # BMSM_PrEP
-Estimation of causal effect of PrEP in Black MSM
 
 These files contain data to perform the analysis reported by Meisner et al. (2023+). The goal of the analysis was to combine data from two non-randomized HIV Prevention Trial Network studies to estimate the causal effect of pre-exposure prophylaxis (PrEP) for HIV prevention in Black men who have sex with men (MSM) in the US. The files include:
 
