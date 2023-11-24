@@ -4,5 +4,4 @@ These files contain data to perform the analysis reported by Meisner et al. (202
 
 * alldata_wide20230413.Rda: R dataset containing all data relevent to the analyis. Note that all data have been de-identified.
 * BMSManalysis_pt1.R: R code for performing the analysis to estimate the effect of PrEP. For the sake of speed, this code includes only the first 100 (out of 1000) bootstraps used to estimate confidence intervals.
-* process_results.R: R code to create plots and tables of results.
   
